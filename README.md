@@ -2,7 +2,7 @@
 docker build -t moricom/jenkins .\
 docker push moricom/jenkins
 
-# jenkins defalut run 
+# jenkins default run 
 docker run -d -p 8080:8080 -p 5000:5000 --name jenkins moricom/jenkins
 
 # jenkins docker in docker
