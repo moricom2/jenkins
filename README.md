@@ -5,7 +5,7 @@ docker push moricom/jenkins
 # jenkins default run 
 docker run -d -p 8080:8080 -p 5000:5000 --name jenkins moricom/jenkins
 
-# jenkins docker in docker
+# ★ jenkins docker in docker
 docker run -d -p 8080:8080 -p 5000:5000 -v /var/run/docker.sock:/var/run/docker.sock -v /usr/bin/docker:/usr/bin/docker --name jenkins moricom/jenkins
 
 # jenkins volume share example
