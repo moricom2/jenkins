@@ -1,4 +1,4 @@
-# Docker-ce (ssh root@192.168.56.101)
+# Docker-ce
 
 # jenkins image build & push
 docker build -t moricom/jenkins .\
